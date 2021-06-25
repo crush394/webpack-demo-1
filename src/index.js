@@ -1,11 +1,12 @@
 import x from './x.js'
 import png from './assets/1.png'
 
+// 插入图片
 // const div = document.getElementById('app')
-
 // div.innerHTML = `
 //     <img src="${png}">
 //   `
+
 const button = document.createElement('button')
 button.innerText = '懒加载'
 button.onclick = () =>{
